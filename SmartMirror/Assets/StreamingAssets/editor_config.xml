@@ -3,12 +3,12 @@
   <Configuraciones>
     <EntradaItems>
       <nombre>Rotacion de Imagen</nombre>
-      <valorNumerico>0</valorNumerico>
+      <valorNumerico>90</valorNumerico>
       <valorString>De 0 a 360</valorString>
     </EntradaItems>
     <EntradaItems>
       <nombre>Voltear Imagen</nombre>
-      <valorNumerico>1</valorNumerico>
+      <valorNumerico>0</valorNumerico>
       <valorString>Si</valorString>
     </EntradaItems>
     <EntradaItems>
@@ -18,8 +18,33 @@
     </EntradaItems>
     <EntradaItems>
       <nombre>FPS</nombre>
-      <valorNumerico>30</valorNumerico>
+      <valorNumerico>60</valorNumerico>
       <valorString>Fotos por segundo</valorString>
+    </EntradaItems>
+    <EntradaItems>
+      <nombre>Rojo</nombre>
+      <valorNumerico>0</valorNumerico>
+      <valorString>0.4272095</valorString>
+    </EntradaItems>
+    <EntradaItems>
+      <nombre>Verde</nombre>
+      <valorNumerico>0</valorNumerico>
+      <valorString>0.8404876</valorString>
+    </EntradaItems>
+    <EntradaItems>
+      <nombre>Azul</nombre>
+      <valorNumerico>0</valorNumerico>
+      <valorString>0.9410142</valorString>
+    </EntradaItems>
+    <EntradaItems>
+      <nombre>Altura</nombre>
+      <valorNumerico>500</valorNumerico>
+      <valorString>Pixels</valorString>
+    </EntradaItems>
+    <EntradaItems>
+      <nombre>Width</nombre>
+      <valorNumerico>500</valorNumerico>
+      <valorString>Pixels</valorString>
     </EntradaItems>
   </Configuraciones>
 </BaseDeDatos>

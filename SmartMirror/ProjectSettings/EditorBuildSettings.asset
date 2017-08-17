@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PhotoStation.unity
+    guid: 9a84bf606563db345aa97ee972f3d384
+  - enabled: 1
+    path: Assets/Scenes/Editor.unity
+    guid: ebaa77b860dc42945a5c78024d392697

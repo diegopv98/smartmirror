@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4855806545279028}
   - component: {fileID: 114681453299350906}
+  - component: {fileID: 114131009619410162}
+  - component: {fileID: 114943711904559152}
   m_Layer: 0
   m_Name: Configuraciones
   m_TagString: Untagged
@@ -40,6 +42,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114131009619410162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885568596287712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7fa7c09b3ff6af48981f074285f134d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114681453299350906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,7 +67,7 @@ MonoBehaviour:
   BDatos:
     list:
     - nombre: Rotacion de Imagen
-      valorNumerico: 0
+      valorNumerico: 270
       valorString: De 0 a 360
     - nombre: Voltear Imagen
       valorNumerico: 1
@@ -65,3 +78,40 @@ MonoBehaviour:
     - nombre: FPS
       valorNumerico: 30
       valorString: Fotos por segundo
+    - nombre: Rojo
+      valorNumerico: 0
+      valorString: Color Rojo
+    - nombre: Verde
+      valorNumerico: 0
+      valorString: Color Verde
+    - nombre: Azul
+      valorNumerico: 0
+      valorString: Color Azul
+    - nombre: Altura
+      valorNumerico: 1080
+      valorString: Pixels
+    - nombre: Width
+      valorNumerico: 1920
+      valorString: Pixels
+--- !u!114 &114943711904559152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885568596287712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb21fc74eb22fd548a5dcf45aae832e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dispositivos: {fileID: 0}
+  prueba: {fileID: 0}
+  Sred: {fileID: 0}
+  Sgreen: {fileID: 0}
+  Sblue: {fileID: 0}
+  Rotacion: {fileID: 0}
+  Girar: {fileID: 0}
+  Dispositivos: {fileID: 0}
+  FPS: {fileID: 0}
+  Altura: {fileID: 0}
+  Ancho: {fileID: 0}
